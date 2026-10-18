@@ -1,0 +1,15 @@
+City: Charlotte, North Carolina, USA
+Features: ['temperature_2m_max', 'temperature_2m_min', 'precipitation_sum', 'wind_speed_10m_max']
+Test accuracy: 0.8767
+
+Clearly good: mild and dry: {'temperature_2m_max': 18.0, 'temperature_2m_min': 10.0, 'precipitation_sum': 0.0, 'wind_speed_10m_max': 12.0}
+Prediction: good; P(good): 0.5677
+
+Clearly bad: wet and windy: {'temperature_2m_max': 32.0, 'temperature_2m_min': 23.0, 'precipitation_sum': 20.0, 'wind_speed_10m_max': 45.0}
+Prediction: skip; P(good): 0.0008
+
+Borderline precipitation: {'temperature_2m_max': 18.0, 'temperature_2m_min': 10.0, 'precipitation_sum': 2.9, 'wind_speed_10m_max': 20.0}
+Prediction: skip; P(good): 0.3998
+
+Borderline upper temperature: {'temperature_2m_max': 26.0, 'temperature_2m_min': 17.0, 'precipitation_sum': 0.0, 'wind_speed_10m_max': 15.0}
+Prediction: skip; P(good): 0.3894

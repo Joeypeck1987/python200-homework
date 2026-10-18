@@ -1,0 +1,65 @@
+{
+  "python_version": "3.12.2",
+  "sklearn_version": "1.9.1",
+  "features": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "precipitation_sum",
+    "wind_speed_10m_max"
+  ],
+  "label": "good_for_running",
+  "city": "Charlotte, North Carolina, USA",
+  "model_type": "LogisticRegression",
+  "classes": [
+    0,
+    1
+  ],
+  "label_rule": {
+    "temperature_2m_max": "7 <= high <= 26 C",
+    "temperature_2m_min": ">= 0 C",
+    "precipitation_sum": "< 3 mm",
+    "wind_speed_10m_max": "< 30 km/h"
+  },
+  "test_accuracy": 0.8767123287671232,
+  "test_f1": 0.8421052631578947,
+  "test_precision": 0.8275862068965517,
+  "test_recall": 0.8571428571428571,
+  "source": "https://archive-api.open-meteo.com/v1/archive",
+  "request_params": {
+    "latitude": 35.23,
+    "longitude": -80.84,
+    "start_date": "2023-01-01",
+    "end_date": "2023-12-31",
+    "daily": [
+      "temperature_2m_max",
+      "temperature_2m_min",
+      "precipitation_sum",
+      "wind_speed_10m_max"
+    ],
+    "timezone": "America/New_York",
+    "temperature_unit": "celsius",
+    "precipitation_unit": "mm",
+    "wind_speed_unit": "kmh"
+  },
+  "train_rows": 292,
+  "test_rows": 73,
+  "random_state": 42,
+  "training_feature_ranges": {
+    "temperature_2m_max": {
+      "min": 5.4,
+      "max": 35.1
+    },
+    "temperature_2m_min": {
+      "min": -5.2,
+      "max": 23.6
+    },
+    "precipitation_sum": {
+      "min": 0.0,
+      "max": 47.6
+    },
+    "wind_speed_10m_max": {
+      "min": 7.2,
+      "max": 38.4
+    }
+  }
+}

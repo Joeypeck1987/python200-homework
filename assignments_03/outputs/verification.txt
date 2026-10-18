@@ -1,0 +1,9 @@
+PASS: all three scripts execute without warnings.
+PASS: warmup setup matches the official assignment exactly.
+PASS: 600-row course CSV and 365 unique complete weather dates.
+PASS: deployment scaler trained on 292 training rows only.
+PASS: saved model feature names match metadata; predictions finite.
+PASS: persisted labels and probabilities match before/after reload.
+PASS: prediction has no training or API calls; runs from another directory.
+PASS: missing artifacts produce an actionable error.
+PASS: both models and both confusion matrix PNGs exist.

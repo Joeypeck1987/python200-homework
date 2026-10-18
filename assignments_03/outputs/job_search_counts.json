@@ -1,0 +1,27 @@
+{
+  "research_date": "2026-10-18",
+  "results": [
+    {
+      "query": "data engineer",
+      "filters": {},
+      "url": "https://www.amazon.jobs/en/search.json?base_query=data+engineer&offset=0&result_limit=1",
+      "hits": 728,
+      "interpreted_request": "{\"jobPostingSearchRequest\":{\"query\":\"data engineer\",\"excludeFacets\":[{\"name\":\"businessCategory\",\"values\":[{\"name\":\"a-confidential-job\"}]},{\"name\":\"isPostedExternally\",\"values\":[{\"name\":\"0\"}]},{\"name\":\"isUnsearchable\",\"values\":[{\"name\":\"1\"}]}],\"filterFacets\":[],\"start\":\"0\",\"size\":\"1\",\"sort\":{\"sortOrder\":\"DESCENDING\",\"sortType\":\"SCORE\"},\"location\":null,\"accessLevel\":\"EXTERNAL\",\"includeFacets\":[],\"locationFacets\":[],\"jobTypeFacets\":[],\"contentFilterFacets\":[],\"treatment\":\"OM\"}}"
+    },
+    {
+      "query": "data engineer cloud",
+      "filters": {},
+      "url": "https://www.amazon.jobs/en/search.json?base_query=data+engineer+cloud&offset=0&result_limit=1",
+      "hits": 2474,
+      "interpreted_request": "{\"jobPostingSearchRequest\":{\"query\":\"data engineer cloud\",\"excludeFacets\":[{\"name\":\"businessCategory\",\"values\":[{\"name\":\"a-confidential-job\"}]},{\"name\":\"isPostedExternally\",\"values\":[{\"name\":\"0\"}]},{\"name\":\"isUnsearchable\",\"values\":[{\"name\":\"1\"}]}],\"filterFacets\":[],\"start\":\"0\",\"size\":\"1\",\"sort\":{\"sortOrder\":\"DESCENDING\",\"sortType\":\"SCORE\"},\"location\":null,\"accessLevel\":\"EXTERNAL\",\"includeFacets\":[],\"locationFacets\":[],\"jobTypeFacets\":[],\"contentFilterFacets\":[],\"treatment\":\"OM\"}}"
+    },
+    {
+      "query": "data engineer AI",
+      "filters": {},
+      "url": "https://www.amazon.jobs/en/search.json?base_query=data+engineer+AI&offset=0&result_limit=1",
+      "hits": 6,
+      "interpreted_request": "{\"jobPostingSearchRequest\":{\"query\":\"data engineer AI\",\"excludeFacets\":[{\"name\":\"businessCategory\",\"values\":[{\"name\":\"a-confidential-job\"}]},{\"name\":\"isPostedExternally\",\"values\":[{\"name\":\"0\"}]},{\"name\":\"isUnsearchable\",\"values\":[{\"name\":\"1\"}]}],\"filterFacets\":[],\"start\":\"0\",\"size\":\"1\",\"sort\":{\"sortOrder\":\"DESCENDING\",\"sortType\":\"SCORE\"},\"location\":null,\"accessLevel\":\"EXTERNAL\",\"includeFacets\":[],\"locationFacets\":[],\"jobTypeFacets\":[],\"contentFilterFacets\":[],\"treatment\":\"OM\"}}"
+    }
+  ],
+  "note": "Keyword searches only. Unsupported location filters were excluded; use the reviewed posting sample in mindset_03.md for the location comparison."
+}
