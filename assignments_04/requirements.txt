@@ -1,0 +1,5 @@
+# Match the versions used to save the Week 3 pipeline.
+scikit-learn==1.9.1
+pandas==3.0.6
+joblib==1.6.0
+pytest>=8,<10
