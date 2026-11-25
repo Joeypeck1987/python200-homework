@@ -17,3 +17,7 @@
 ## Cost analysis
 
 The GPU instance is the largest cost driver, at about 87% of Scenario B’s estimated monthly total. This shows why runtime matters: a `p3.2xlarge` left on for all 730 hours costs much more than one used only during training. I would stop it when GPU work is finished. The estimates may exclude charges such as data transfer, taxes, and additional storage or backup use.
+
+## Video walkthrough
+
+[Watch the Week 8 assignment video](https://youtu.be/_mBXOo4uJnw)
